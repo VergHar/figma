@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+    body{
+    background-color:#611616;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+
+}
+.card{
+    margin: 30px;
+    box-shadow: 5px 10px gray;
+    display: flex;
+    flex-direction: row;
+    background-color: honeydew;
+    border-radius: 5px;
+    width: 300px;
+    height: 100px;
+}
+div.card div.image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    height: 100%;
+}
+div.card div.text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60%;
+    height: 100%;
+}
+div.card div.image img{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+div.card div.text .nomber{
+    font-size: 40px;
+    color: crimson;
+    font-weight: bold;
+}
+div.card div.text .describtion{
+    font-size: 30px;
+    color: darkolivegreen;
+    font-weight: inherit;
+}
